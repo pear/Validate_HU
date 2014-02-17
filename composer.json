@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "btibor@dolphinet.hu",
+            "name": "Tibor Balogh",
+            "role": "Lead"
+        },
+        {
+            "email": "koteleszoltan@dolphinet.hu",
+            "name": "Zoltan Koteles",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_HU": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_HU",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_hu",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_HU",
+        "source": "https://github.com/pear/Validate_HU"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
